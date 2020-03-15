@@ -3,6 +3,7 @@ console.log("About to fetch rainbow");
 catchText()
   .then(textfile => {
     document.getElementById("textfile").innerText = textfile;
+    console.log("yes");
   })
   .catch(err => {
     console.log("Error!");
